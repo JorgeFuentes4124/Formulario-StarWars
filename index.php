@@ -16,7 +16,7 @@
 <body>
     <svg viewBox="0 0 1320 300">
         <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Bienvenido</text>
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Hola a todes</text>
         </symbol>  
         <use xlink:href="#s-text" class="text"></use>
         <use xlink:href="#s-text" class="text"></use>
@@ -26,8 +26,8 @@
     </svg>
 
     <div class="star-wars-container">
-        <div class="star-wars-svg-text">Bienvenido</div>
-        <h1 class="bienvenida">Bienvenido</h1>
+        <div class="star-wars-svg-text">Star Wars</div>
+        <h1 class="bienvenida">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum saepe incidunt, a distinctio dolore repudiandae vero corrupti, blanditiis esse minus hic impedit! Dolorum, rem? Consequuntur modi vitae quis sunt quo.</h1>
     </div>
 
     <?php
