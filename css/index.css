@@ -4,7 +4,8 @@ body {
     padding: 0;
     overflow: hidden;
     font-family: 'Abril Fatface', serif;
-    background: #000; /* Fondo negro para simular el espacio */
+    background: url('path/to/your-star-wars-image.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     color: #fff; /* Color de texto blanco */
     text-align: center;
 }
