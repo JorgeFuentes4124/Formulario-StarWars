@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="form">
 	<h3 class="bajaTitulo" style="text-align: center;">FORMULARIO DE BAJA</h3>
 	<form class="bajaInput" action="../server/bajas.php" method="POST">
@@ -17,3 +18,13 @@
 		</div>
 	</form>
 </div>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+>>>>>>> c1bf82fb827f39584dfe28ad498e578ca509edf3
