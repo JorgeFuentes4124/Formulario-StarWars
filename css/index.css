@@ -4,7 +4,7 @@ body {
     padding: 0;
     overflow: hidden;
     font-family: 'Abril Fatface', serif;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHjBQ_HOyncxPPNSDQuEB-41DSskaKModAUA&s') no-repeat center center fixed; /* Imagen de fondo */
+    background: url('https://images6.alphacoders.com/137/thumb-350-1373117.webp') no-repeat center center fixed; /* Imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     color: #fff; /* Color de texto blanco */
     text-align: center;
