@@ -27,7 +27,7 @@
 
     <div class="star-wars-container">
         <div class="star-wars-svg-text">Bienvenido</div>
-        <h1 class="bienvenida">Bienvenido</h1>
+        <h1 class="bienvenida">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum saepe incidunt, a distinctio dolore repudiandae vero corrupti, blanditiis esse minus hic impedit! Dolorum, rem? Consequuntur modi vitae quis sunt quo.</h1>
     </div>
 
     <?php
