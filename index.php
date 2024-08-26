@@ -26,7 +26,8 @@
     </svg>
 
     <div class="star-wars-container">
-        <div class="star-wars-text">Bienvenido</div>
+        <div class="star-wars-svg-text">Bienvenido</div>
+        <h1 class="bienvenida">Bienvenido</h1>
     </div>
 
     <?php
@@ -35,4 +36,3 @@
     ?>
 </body>
 </html>
-
