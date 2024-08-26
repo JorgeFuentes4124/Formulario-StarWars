@@ -16,7 +16,7 @@
 <body>
     <svg viewBox="0 0 1320 300">
         <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Bienvenido</text>
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Hola a todes</text>
         </symbol>  
         <use xlink:href="#s-text" class="text"></use>
         <use xlink:href="#s-text" class="text"></use>
