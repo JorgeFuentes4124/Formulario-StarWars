@@ -11,7 +11,7 @@
 
 <?php
 
-include("../modelo/usuario.php");
+include("../Conexion/Usuario.php");
 
 $use = $_POST['userName'];
 
@@ -24,7 +24,7 @@ if ($result) {
     <div class="Rbox">
         <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
         <h3 class="Rcuerpo">No se pudo eliminar correctamente este registro</h3>
-        <a href="../from/menu.php" class="cerrar">Cerrar</a>
+        <a href="../from/Menu.php" class="cerrar">Cerrar</a>
     </div>
 </div>';
 }
