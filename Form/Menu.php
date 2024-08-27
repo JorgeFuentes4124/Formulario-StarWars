@@ -86,7 +86,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="Modificacion" class="three">
 				<div class="container">
 					<?php
-					include("form-Modificacion.php");
+					include("formModificacion.php");
 					?>
 				</div>
 			</section>
