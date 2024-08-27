@@ -74,28 +74,28 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			</section>
 
 			<!-- Portfolio -->
-			<section id="bajas" class="two">
+			<section id="Bajas" class="two">
 				<div class="container">
 					<?php
-					include("form-bajas.php");
+					include("Form-Bajas.php");
 					?>
 				</div>
 			</section>
 
 			<!-- About Me -->
-			<section id="modificacion" class="three">
+			<section id="Modificacion" class="three">
 				<div class="container">
 					<?php
-					include("form-modificacion.php");
+					include("Form-Modificacion.php");
 					?>
 				</div>
 			</section>
 
 			<!-- Contact -->
-			<section id="listar" class="four">
+			<section id="Listar" class="four">
 				<div class="container">
 					<?php
-					include("listar.php");
+					include("Listar.php");
 					?>
 				</div>
 			</section>
