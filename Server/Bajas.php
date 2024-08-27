@@ -11,7 +11,7 @@
 
 <?php
 
-include("../modelo/usuario.php");
+include("../Conexion/usuario.php");
 
 $use = $_POST['userName'];
 
