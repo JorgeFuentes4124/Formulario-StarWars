@@ -10,7 +10,7 @@
 
 <?php
 
-include("../modelo/usuario.php");
+include("../Conexion/usuario.php");
 
 $use = $_POST['usuario'];
 $cla = $_POST['clave'];
