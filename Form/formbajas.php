@@ -6,7 +6,7 @@
 			<label for="userName">Seleccione un nombre de usuario:</label>
 			<div class="container-select">
 				<?php
-				include("../modelo/usuario.php");
+				include("../Conexion/Usuario.php");
 				echo getUsuarioUsersNames();
 				?>
 				<div id="modal" class=""></div>

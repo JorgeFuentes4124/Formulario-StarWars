@@ -68,7 +68,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="altas" class="one dark cover">
 				<div class="container">
 					<?php
-					include("form-altas.php");
+					include("Form-Altas.php");
 					?>
 				</div>
 			</section>
