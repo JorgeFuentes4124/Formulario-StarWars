@@ -1,7 +1,7 @@
 
 <div class="form">
 	<h3 class="altaTitulo">FORMULARIO DE ALTA</h3>
-	<form class="altaInput" action="../server/altas.php" method="POST" enctype="multipart/form-data">
+	<form class="altaInput" action="../Server/Altas.php" method="POST" enctype="multipart/form-data">
 		<div class="grupoInputs">
 			<img onclick="seleccionarArchivo()" src="../images/fotoPerfil.png" id="imgPerfil" alt="">
 			<input type="file" class="inputFile" name="foto"><br>

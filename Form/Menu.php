@@ -45,7 +45,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 						<li><a href="#bajas" id="bajas-link"><span class="icono-container">Bajas<img class="icono"
 										src="../images/icono-baja.png"></span></a></li>
 						<li><a href="#modificacion" id="modificacion-link"><span
-									class="icono-container">ModificacionMe<img class="icono"
+									class="icono-container">Modificacion<img class="icono"
 										src="../images/icono-modificar.png"></span></a></li>
 						<li><a href="#listar" id="listar-link"><span class="icono-container">Listar<img class="icono"
 										src="../images/icono-listar.png"></span></a>
@@ -68,7 +68,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="altas" class="one dark cover">
 				<div class="container">
 					<?php
-					include("form-altas.php");
+					include("formaltas.php");
 					?>
 				</div>
 			</section>
@@ -77,7 +77,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="bajas" class="two">
 				<div class="container">
 					<?php
-					include("form-bajas.php");
+					include("formbajas.php");
 					?>
 				</div>
 			</section>
@@ -86,7 +86,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="modificacion" class="three">
 				<div class="container">
 					<?php
-					include("form-modificacion.php");
+					include("formModificar.php");
 					?>
 				</div>
 			</section>
@@ -95,7 +95,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="listar" class="four">
 				<div class="container">
 					<?php
-					include("listar.php");
+					include("Listar.php");
 					?>
 				</div>
 			</section>
@@ -114,9 +114,8 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 
 	<script src="../js/menu.js"></script>
 	<script src="../js/form-altas.js"></script>
-	<script src="../js/form-baja.js"></script>
+	<script src="../js/form-bajas.js"></script>
 	<script src="../js/form-modificar.js"></script>
-	<script src="../js/animacionInput.js"></script>
 </body>
 
 </html>
