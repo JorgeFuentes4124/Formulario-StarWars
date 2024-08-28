@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -31,4 +28,3 @@ if ($result) {
 </div>';
 }
 ?>
->>>>>>> 45b75e64d98102fb1bb0418ec47ed60cdc5b2902
