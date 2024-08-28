@@ -7,7 +7,7 @@ function seleccionarArchivo() {
 
 let input = document.querySelector(".inputfile");
 input.addEventListener("change", function () {
-    let imgAlta = document.querySelector("#imgPerfil");
+    let imgAlta = document.querySelector("imgPerfil");
     const archivos = input.files;
     console.dir(imgAlta);
     if (!archivos || !archivos.length){
