@@ -8,7 +8,7 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
         $contenido = addslashes($contenido);
         fclose($fp);
 
-        $Conexion = include("conexion.php");
+        $Conexion = include("Conexion.php");
 
         $cadena = "INSERT INTO persona(apellido, nombre, fecha,foto,usuario,clave) VALUES ('$ape','$nom','$fe','$contenido','$use','$cla')";
 
@@ -30,7 +30,7 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
 function getUsuarioUsersNames()
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "SELECT usuario FROM persona ";
 
     $consulta = mysqli_query($Conexion, $cadena);
@@ -52,7 +52,7 @@ function getUsuarioUsersNames()
 
 function getUsuarioUsersNamesModificar()
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "SELECT usuario FROM persona ";
 
     $consulta = mysqli_query($Conexion, $cadena);
@@ -74,7 +74,7 @@ function getUsuarioUsersNamesModificar()
 
 function getUsuarioUserName($userName)
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "SELECT * FROM persona WHERE usuario ='" . $userName . "'";
     $consulta = mysqli_query($Conexion, $cadena);
     $array = array();
@@ -86,7 +86,7 @@ function getUsuarioUserName($userName)
 
 function getUsuarioUserNames()
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "SELECT usuario FROM persona ";
     $consulta = mysqli_query($Conexion, $cadena);
     $array = array();
@@ -98,7 +98,7 @@ function getUsuarioUserNames()
 
 function deleteUser($userName)
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "DELETE FROM persona  WHERE usuario = '$userName'";
     $resultado = mysqli_query($Conexion, $cadena);
 
@@ -113,7 +113,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
         $contenido = addslashes($contenido);
         fclose($fp);
 
-        $Conexion = include("conexion.php");
+        $Conexion = include("Conexion.php");
 
         $cadena = "UPDATE  persona SET apellido = '$ape', nombre = '$nom', fecha = '$fe', foto = '$contenido', clave = '$cla' WHERE usuario = '$use'";
 
@@ -126,7 +126,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
             return substr($e, 22, 41);
         }
     } else {
-        $Conexion = include("conexion.php");
+        $Conexion = include("Conexion.php");
 
         $cadena = "UPDATE  persona SET apellido = '$ape', nombre = '$nom', fecha = '$fe', clave = '$cla' WHERE usuario = '$use'";
 
@@ -143,7 +143,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
 function listar()
 {
-    $Conexion = include("conexion.php");
+    $Conexion = include("Conexion.php");
     $cadena = "SELECT * FROM persona ";
 
     $consulta = mysqli_query($Conexion, $cadena);
