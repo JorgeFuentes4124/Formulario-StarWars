@@ -68,22 +68,22 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="altas" class="one dark cover">
 				<div class="container">
 					<?php
-					include("formAltas.php");
+					include("formaltas.php");
 					?>
 				</div>
 			</section>
 
 			<!-- Portfolio -->
-			<section id="bajas" class="two">
+			<section id="Bajas" class="two">
 				<div class="container">
 					<?php
-					include("formBajas.php");
+					include("formbajas.php");
 					?>
 				</div>
 			</section>
 
 			<!-- About Me -->
-			<section id="modificacion" class="three">
+			<section id="Modificacion" class="three">
 				<div class="container">
 					<?php
 					include("formModificacion.php");
@@ -92,7 +92,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			</section>
 
 			<!-- Contact -->
-			<section id="listar" class="four">
+			<section id="Listar" class="four">
 				<div class="container">
 					<?php
 					include("Listar.php");
@@ -112,7 +112,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 		</div>
 	</div>
 
-	<script src="../js/menu.js"></script>
+	<script src="../js/Menu.js"></script>
 	<script src="../js/formaltas.js"></script>
 	<script src="../js/formbaja.js"></script>
 	<script src="../js/formModificar.js"></script>

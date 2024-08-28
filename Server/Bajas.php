@@ -1,8 +1,34 @@
+<<<<<<< HEAD
+=======
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server altas</title>
+	<link rel="stylesheet" href="../css/respuesta-alta.css">
 </head>
 
+<?php
+
+include("../Conexion/Usuario.php");
+
+$use = $_POST['userName'];
+
+$result = deleteUser($use);
+
+if ($result) {
+	return include("../from/respuestas-server/respuesta-baja.php");
+} else {
+	echo '<div class="Rcontainer">
+    <div class="Rbox">
+        <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
+        <h3 class="Rcuerpo">No se pudo eliminar correctamente este registro</h3>
+        <a href="../from/Menu.php" class="cerrar">Cerrar</a>
+    </div>
+</div>';
+}
+?>
+>>>>>>> 45b75e64d98102fb1bb0418ec47ed60cdc5b2902
