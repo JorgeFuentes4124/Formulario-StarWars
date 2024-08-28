@@ -16,7 +16,7 @@
 <body>
     <svg viewBox="0 0 1320 300">
         <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="50%" dy=".35em">En una galaxia muy muy lejana...</text>
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Hola a todes</text>
         </symbol>  
         <use xlink:href="#s-text" class="text"></use>
         <use xlink:href="#s-text" class="text"></use>
@@ -31,7 +31,7 @@
     </div>
 
     <?php
-    header("refresh:5;url=Form/Menu.php");
+    header("refresh:5;url=from/Menu.php");
     exit();
     ?>
 </body>
