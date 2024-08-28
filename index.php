@@ -16,7 +16,7 @@
 <body>
     <svg viewBox="0 0 1320 300">
         <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="50%" dy=".35em"></text>
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">En una galaxia muy muy lejana...</text>
         </symbol>  
         <use xlink:href="#s-text" class="text"></use>
         <use xlink:href="#s-text" class="text"></use>
@@ -27,7 +27,7 @@
 
     <div class="star-wars-container">
         <div class="star-wars-svg-text">Star Wars</div>
-        <h1 class="bienvenida">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum saepe incidunt, a distinctio dolore repudiandae vero corrupti, blanditiis esse minus hic impedit! Dolorum, rem? Consequuntur modi vitae quis sunt quo.</h1>
+        <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartian una fuente de datos para el guardado de datos personales</h1>
     </div>
 
     <?php
