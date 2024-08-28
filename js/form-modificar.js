@@ -1,7 +1,7 @@
 let formBajaModificar = document.querySelector(".modificarInput");
 formBajaModificar.addEventListener("submit", function (e) {
   e.preventDefault();
-  let modalModificar = document.querySelector("modalModificar");
+  let modalModificar = document.querySelector("#modalModificar");
   let selectedModificar = document.querySelector(".selectModificar");
   let valueSelected = selectedModificar.selectedOptions[0].textContent;
   if (valueSelected == "Seleccione una opcion") {
@@ -33,11 +33,11 @@ selectedModificar.addEventListener("change", function (e) {
   })
     .then((res) => res.json())
     .then(function (json) {
-      let apellido = document.querySelector("apellido");
-      let nombre = document.querySelector("nombre");
-      let fecha = document.querySelector("fecha");
-      let foto = document.querySelector("imgPerfilModificar");
-      let clave = document.querySelector("clave");
+      let apellido = document.querySelector("#apellido");
+      let nombre = document.querySelector("#nombre");
+      let fecha = document.querySelector("#fecha");
+      let foto = document.querySelector("#imgPerfilModificar");
+      let clave = document.querySelector("#clave");
 
       apellido.value = json[0].apellido;
       nombre.value = json[0].nombre;
@@ -49,7 +49,7 @@ selectedModificar.addEventListener("change", function (e) {
 });
 
 function cerrarModalModificar() {
-  let modal = document.querySelector("modalModificar");
+  let modal = document.querySelector("#modalModificar");
   modal.innerHTML = "";
   modal.className = "";
 }
@@ -67,7 +67,7 @@ function seleccionarArchivoModificar() {
 
 let inputModificar = document.querySelector(".inputFileModificar");
 inputModificar.addEventListener("change", function () {
-  let imgModificacion = document.querySelector("imgPerfilModificar");
+  let imgModificacion = document.querySelector("#imgPerfilModificar");
   const archivos = inputModificar.files;
   if (!archivos || !archivos.length) {
     imgModificacion.src = "";
