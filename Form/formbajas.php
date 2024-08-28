@@ -1,4 +1,3 @@
-
 <div class="form">
 	<h3 class="bajaTitulo" style="text-align: center;">FORMULARIO DE BAJA</h3>
 	<form class="bajaInput" action="../Server/Bajas.php" method="POST">
