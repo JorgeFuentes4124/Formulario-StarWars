@@ -31,7 +31,7 @@
     </div>
 
     <?php
-    header("refresh:5;url=from/Menu.php");
+    header("refresh:5;url=Form/Menu.php");
     exit();
     ?>
 </body>
