@@ -1,3 +1,4 @@
+
 <div class="form">
 	<h3 class="modificarTitulo">FORMULARIO DE MODIFICACION</h3>
 	<form class="modificarInput" action="../Server/Modificaciones.php" method="POST" enctype="multipart/form-data">

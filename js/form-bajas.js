@@ -1,7 +1,7 @@
 let formBaja = document.querySelector(".bajaInput");
 formBaja.addEventListener("submit", function (e) {
   e.preventDefault();
-  let modal = document.querySelector("modal");
+  let modal = document.querySelector("#modal");
   let selected = document.querySelector(".select");
   let valueSelected = selected.selectedOptions[0].textContent;
   if (valueSelected == "Seleccione una opcion") {
