@@ -27,6 +27,8 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
         return false;
     }
 }
+//hola
+
 
 function getUsuarioUsersNames()
 {
