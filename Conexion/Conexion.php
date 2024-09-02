@@ -1,6 +1,6 @@
 
 <?php
-$base = "StarWars";
+$base = "starWars";
 $Conexion = mysqli_connect("localhost", "root", "", $base);
 return $Conexion;
 ?>
