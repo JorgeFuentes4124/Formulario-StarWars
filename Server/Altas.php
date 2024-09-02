@@ -8,7 +8,7 @@
 
 <?php
 
-include("../modelo/usuario.php");
+include("../Conexion/usuario.php");
 
 $usu = $_POST['usuario'];
 $nom = $_POST['nombre'];
@@ -16,8 +16,9 @@ $ape = $_POST['apellido'];
 $fe = $_POST['fecha'];
 $cla = $_POST['clave'];
 $foto = $_FILES["foto"]["tmp_name"];
-$fotoTamanio = $_FILES["foto"]["size"]
+$fotoTamanio = $_FILES["foto"]["size"];
 
+echo $usu, $nom, $ape, $fe, $cla, $foto, $fotoTamanio;
 $result = insertar($usu, $nom, $ape, $fe, $cla, $foto, $fotoTamanio);
 
 if(strlen($result) > 5 ) {
@@ -29,6 +30,6 @@ if(strlen($result) > 5 ) {
     </div>
 </div>';
 } else {
-    return include("../from/respuestas-server/respuesta-alta.php");
+    return include("../Form/Menu.php");
 }
 ?>
