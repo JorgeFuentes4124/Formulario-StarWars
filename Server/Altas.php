@@ -29,6 +29,6 @@ if(strlen($result) > 5 ) {
     </div>
 </div>';
 } else {
-    return include("../from/respuestas-server/respuesta-alta.php");
+    return include("../Formulario/Menu.php");
 }
 ?>
