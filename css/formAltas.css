@@ -1,24 +1,27 @@
 /* formAltas.css */
 
-/* Fondo del formulario */
+/* Form Styling */
 form {
-    background: #333333; /* Fondo oscuro para el formulario */
+    background: #333333; /* Dark form background */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Fondo de campos de entrada en el formulario */
 form input, form select, form textarea {
-    background: #000000; /* Fondo oscuro para los campos de entrada */
-    color: #ffffff; /* Color de texto en los campos */
-    border: 1px solid #555555; /* Borde de los campos */
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1em;
 }
 
-/* Fondo de botones en el formulario */
 form input[type="submit"] {
-    background: #f1c40f; /* Fondo amarillo para el botón de envío */
-    color: #000000; /* Color del texto del botón */
+    background: #f1c40f;
+    color: #000000;
     border: none;
     cursor: pointer;
     font-size: 1.2em;
@@ -26,13 +29,20 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background: #e1b80b; /* Color de fondo al pasar el ratón */
+    background: #e1b80b;
 }
 
-/* Fondo de etiquetas */
 form label {
     font-size: 1.2em;
     margin: 10px 0;
     display: block;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
 
