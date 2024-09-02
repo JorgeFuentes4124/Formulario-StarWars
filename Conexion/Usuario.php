@@ -27,11 +27,6 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
         return false;
     }
 }
-<<<<<<< HEAD
-//hola
-
-=======
->>>>>>> Original
 
 function getUsuarioUsersNames()
 {
