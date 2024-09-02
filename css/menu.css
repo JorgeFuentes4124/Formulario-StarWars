@@ -1,44 +1,107 @@
 /* menu.css */
 
-/* Fondo general del cuerpo */
+/* General Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* Fuente general */
-    background: #000000; /* Fondo de la página */
-    color: #ffffff; /* Color de texto */
+    font-family: 'Dosis', sans-serif;
+    background: #000000; /* Star Wars Dark Space */
+    color: #ffffff; /* Star Wars White */
     margin: 0;
     padding: 0;
 }
 
-/* Fondo del encabezado */
+#contenedor {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
-    background: #1a1a1a; /* Fondo oscuro para el encabezado */
-    color: #f1c40f; /* Color de texto en el encabezado */
+    background: #1a1a1a; /* Dark Background */
+    color: #f1c40f; /* Star Wars Yellow */
     padding: 20px;
 }
 
-/* Fondo del menú de navegación */
-#nav {
-    background: #333333; /* Fondo del menú de navegación */
+#logo h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+    margin: 0;
 }
 
-/* Fondo del banner */
+#logo p {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav ul li {
+    margin: 0;
+}
+
+#nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.icono-container {
+    display: flex;
+    align-items: center;
+}
+
+.icono-container .icono {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
 .banner {
     background: url('../images/star-wars-background.jpg') no-repeat center center;
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-size: cover;
     color: #f1c40f;
     padding: 40px;
     text-align: center;
 }
 
-/* Fondo del pie de página */
+.banner .titulo {
+    font-family: 'Fuggles', cursive;
+    font-size: 3em;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
 #footer {
-    background: #1a1a1a; /* Fondo oscuro para el pie de página */
+    background: #1a1a1a;
     color: #ffffff;
     padding: 10px;
     text-align: center;
 }
 
-/* Fondo de secciones específicas */
-section {
-    margin-bottom: 40px;
+#footer .copyright {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+#footer .copyright li {
+    display: inline;
+    margin: 0 10px;
 }
