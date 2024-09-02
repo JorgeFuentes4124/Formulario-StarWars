@@ -143,11 +143,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
 function listar()
 {
-<<<<<<< HEAD
     $Conexion = include("Conexion.php");
-=======
-    $Conexion = include("conexion.php");
->>>>>>> Original
     $cadena = "SELECT * FROM persona ";
 
     $consulta = mysqli_query($Conexion, $cadena);

@@ -8,7 +8,7 @@
 
 <?php
 
-include("../modelo/usuario.php");
+include("../Conexion/Usuario.php");
 
 $usu = $_POST['usuario'];
 $nom = $_POST['nombre'];
