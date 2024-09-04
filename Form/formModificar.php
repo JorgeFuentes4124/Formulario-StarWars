@@ -33,7 +33,7 @@
 					<spam class="spanInput">Nombre</spam>
 				</label>
 
-				<input type="date" id="fecha" placeholder="fecha" name="fecha" required>
+				<input type="text" id="fecha" placeholder="" name="fecha" required>
 
 				<div class="btn-submit">
 					<input type="submit" class="btn-modificar" value="Modificar">
