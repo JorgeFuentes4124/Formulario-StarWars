@@ -34,7 +34,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				<div id="logo">
 
 					<h1 id="title">Administra Usuario</h1>
-					<p>Gestiona los usurios de este sistema</p>
+					<p>Gestiona los usuarios de este sistema</p>
 				</div>
 
 				<!-- Nav -->

@@ -10,7 +10,7 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
         $Conexion = include("Conexion.php");
 
-        $cadena = "INSERT INTO persona(apellido, nombre, fecha,foto,usuario,clave) VALUES ('$ape','$nom','$fe','$contenido','$use','$cla')";
+        $cadena = "INSERT INTO starwars(apellido, nombre, fecha,foto,usuario,clave) VALUES ('$ape','$nom','$fe','$contenido','$use','$cla')";
 
         try {
             $resultado = mysqli_query($Conexion, $cadena);
@@ -31,7 +31,7 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 function getUsuarioUsersNames()
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT usuario FROM persona ";
+    $cadena = "SELECT * FROM starwars ";
 
     $consulta = mysqli_query($Conexion, $cadena);
     $html = "<select class='select' style='border-bottom: 1px solid black;
@@ -53,7 +53,7 @@ function getUsuarioUsersNames()
 function getUsuarioUsersNamesModificar()
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT usuario FROM persona ";
+    $cadena = "SELECT * FROM starwars ";
 
     $consulta = mysqli_query($Conexion, $cadena);
     $html = "<select class='selectModificar' style='border-bottom: 1px solid black;
@@ -143,8 +143,8 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
 function listar()
 {
-    $Conexion = include("conexion.php");
-    $cadena = "SELECT * FROM persona ";
+    $Conexion = include("Conexion.php");
+    $cadena = "SELECT * FROM starwars ";
 
     $consulta = mysqli_query($Conexion, $cadena);
     $htmlListar = "";

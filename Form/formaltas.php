@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="grupoInputs">
-			<input type="date" placeholder="fecha" name="fecha"><br>
+			<input type="text" placeholder="fecha" name="fecha"><br>
 		</div>
 
 		<div class="btn-submit">
