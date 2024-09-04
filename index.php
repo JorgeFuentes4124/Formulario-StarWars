@@ -32,10 +32,10 @@
 
    <!-- Audio element with autoplay -->
    <audio autoplay>
-        <source src="audio/Imperial.mp3" type="audio/mp3">
+        <source src="audio/Imperial.mp3" type="audio/mpeg">
         Tu navegador no soporta el elemento de audio.
     </audio>
-    
+
     <?php
     header("refresh:5;url=Form/Menu.php");
     exit();
