@@ -31,7 +31,7 @@
     </div>
 
     <audio>
-        <source src="audio/Imperial.mp3" type="audio/mp3"
+        <source src="audio/Imperial.mp3" type="audio/mp3">
     </audio>
     <?php
     header("refresh:5;url=Form/Menu.php");
