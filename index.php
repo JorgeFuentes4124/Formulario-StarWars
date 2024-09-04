@@ -31,7 +31,7 @@
     </div>
 
     <audio>
-        <script src="Imperial Forces" type="audio/mpeg"
+        <source src="audio/Imper" type="audio/mpeg">
     </audio>
     <?php
     header("refresh:5;url=Form/Menu.php");
