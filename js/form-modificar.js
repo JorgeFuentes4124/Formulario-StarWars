@@ -14,7 +14,7 @@ formBajaModificar.addEventListener("submit", function (e) {
     let html = <div class="container-modal">
     <h2>¿Esta seguro que modificar este registro?</h2>
     <p class="btn-modal" onclick="EnviarDeleteModificar()">Aceptar</p></div>
-    </div>;
+  </div>;
     modalModificar.innerHTML = html;
   }
 });
