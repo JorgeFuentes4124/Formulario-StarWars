@@ -27,17 +27,18 @@
 
     <div class="star-wars-container">
         <div class="star-wars-svg-text">Star Wars</div>
-        <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartían una fuente de datos para el guardado de datos personales</h1>
+        <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartian una fuente de datos para el guardado de datos personales</h1>
     </div>
 
-    <audio id="background-music" autoplay loop controls>
-        <source src="Starwars.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
+    <audio id="background-music" autoplay loop>
+    <source src="Starwars.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
     </audio>
 
+
     <?php
-    // header("refresh:5;url=Form/Menu.php");
-    // exit();
+    header("refresh:5;url=Form/Menu.php");
+    exit();
     ?>
 </body>
 </html>
