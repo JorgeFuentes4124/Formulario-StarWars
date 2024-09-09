@@ -40,24 +40,6 @@ svg {
     overflow: hidden;
 }
 
-/* Ajustar el tamaño y la posición de la imagen */
-.star-wars-image {
-    position: absolute;
-    width: 100%;
-    top: 20%; /* Ajusta la posición vertical según necesites */
-    transform: rotateX(30deg);
-    transform-origin: bottom;
-    opacity: 0.9;
-    animation: star-wars-animation 10s linear infinite;
-}
-
-/* Asegúrate de que el texto debajo de la imagen esté bien posicionado */
-.bienvenida {
-    font-size: 4em;
-    top: 60%; /* Ajusta la posición vertical del título principal */
-}
-
-
 /* Efecto de apertura de Star Wars para el texto SVG */
 .star-wars-svg-text,
 .bienvenida {
