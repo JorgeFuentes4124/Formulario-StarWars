@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 -- Última actualización: 04-09-2024 a las 17:15:25
 --
 
-CREATE TABLE `starwars` (
+CREATE TABLE `StarWars` (
   `id` int(4) NOT NULL,
   `apellido` varchar(50) NOT NULL,
   `nombre` varchar(50) NOT NULL,
