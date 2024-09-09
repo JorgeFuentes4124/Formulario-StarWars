@@ -118,7 +118,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 					</div>
 
 				<div class="Footer3">
-					<h3>Transmision asegurada por Coruscant. </h3>
+					<h2>Transmision asegurada por Coruscant. </h2>
 				</div>
 
 			</div>
