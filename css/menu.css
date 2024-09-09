@@ -87,67 +87,21 @@ section {
     margin-bottom: 40px;
 }
 
-/* Estilos generales del footer */
 #footer {
-    background-color: #111; /* Fondo oscuro como el espacio */
-    color: #fff; /* Texto blanco para contraste */
-    padding: 20px;
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 10px;
     text-align: center;
-    font-family: 'Arial', sans-serif; /* Fuente simple y legible */
-    border-top: 2px solid #FFD700; /* Bordes dorados, evocando algo galáctico */
 }
 
-.FooterPadre {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+#footer .copyright {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
 }
 
-.Footer1, .Footer2, .Footer3 {
-    flex: 1; /* Permite que cada sección ocupe el mismo espacio */
-    min-width: 250px; /* Asegura que las secciones no se colapsen en pantallas pequeñas */
-    margin: 10px;
-}
-
-/* Estilos para Footer1 */
-.Footer1 p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    font-style: italic; /* Le da un toque elegante */
-}
-
-/* Estilos para Footer2 */
-.Footer2 h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #00BFFF; /* Color azul, evocando el sable de luz de los Jedi */
-}
-
-.Footer2 h3 {
-    font-size: 1.3em;
-    margin-bottom: 8px;
-    color: #FFD700; /* Nombres en dorado */
-}
-
-/* Estilos para Footer3 */
-.Footer3 h2 {
-    font-size: 1.4em;
-    color: #FF4500; /* Naranja intenso, evocando el calor de un planeta como Mustafar */
-    text-transform: uppercase; /* Texto en mayúsculas para darle más fuerza */
-}
-
-/* Estilos responsivos para pantallas pequeñas */
-
-
-/* Detalles adicionales */
-#footer a {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#footer a:hover {
-    text-decoration: underline;
-    color: #00BFFF;
+#footer .copyright li {
+    display: inline;
+    margin: 0 10px;
 }
