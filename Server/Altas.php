@@ -16,7 +16,7 @@ $ape = $_POST['apellido'];
 $fe = $_POST['fecha'];
 $cla = $_POST['clave'];
 $foto = $_FILES["foto"]["tmp_name"];
-$fotoTamanio = $_FILES["foto"]["size"]
+$fotoTamanio = $_FILES["foto"]["size"];
 
 $result = insertar($usu, $nom, $ape, $fe, $cla, $foto, $fotoTamanio);
 
@@ -25,10 +25,10 @@ if(strlen($result) > 5 ) {
     <div class="Rbox">
         <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
         <h3 class="Rcuerpo">' . $result . '</h3>
-        <a href="../from/menu.php" class="cerrar">Cerrar</a>
+        <a href="../form/Menu.php" class="cerrar">Cerrar</a>
     </div>
 </div>';
 } else {
-    return include("../Formulario/Menu.php");
+    return include("../Form/Menu.php");
 }
 ?>
