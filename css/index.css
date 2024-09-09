@@ -48,6 +48,7 @@ svg {
     text-align: center;
     font-size: 3em;
     font-family: 'Dancing Script', cursive;
+    background: url('https://i.pinimg.com/736x/b6/af/5a/b6af5aeff0ee43a4253fc70c167bb6db.jpg') no-repeat center center fixed; /* Imagen de fondo */
     color: #ffff00; /* Color dorado para el texto */
     transform: rotateX(30deg);
     transform-origin: bottom;
