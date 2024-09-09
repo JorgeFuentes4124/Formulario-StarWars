@@ -26,8 +26,8 @@
     </svg>
 
     <div class="star-wars-container">
-        <div class="star-wars-svg-text">Star Wars</div>
-        <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartian una fuente de datos para el guardado de datos personales</h1>
+    <img src="images/logoSW" alt="Star Wars" class="star-wars-image">
+    <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartían una fuente de datos para el guardado de datos personales</h1>
     </div>
 
     <audio id="background-music" autoplay loop>
