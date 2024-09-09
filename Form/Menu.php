@@ -19,7 +19,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 	<link
 		href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Dosis:wght@300&family=Fuggles&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="../css/Menu.css">
 	<link rel="stylesheet" href="../css/formAltas.css">
 
 </head>
