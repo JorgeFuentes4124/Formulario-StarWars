@@ -104,9 +104,9 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<footer id="footer">
 			<div class="FooterPadre" >
 				<div class="Footer1">
-					<h3>Que la fuerza te acompañe.</h3>
-					<h3>La fuerza estará contigo, siempre</h3>
-					<h3>No subestimes el poder del Lado Oscuro</h3>
+					<p>Que la fuerza te acompañe.</p>
+					<p>La fuerza estará contigo, siempre</p>
+					<p>No subestimes el poder del Lado Oscuro</p>
 				</div>
 								
 					<div class="Footer2">
@@ -118,7 +118,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 					</div>
 
 				<div class="Footer3">
-					<img src:"Alianza-Jedi" alt="">
+					<h3>Transmision asegurada por la Estrella de la Muerte. </h3>
 				</div>
 
 			</div>
