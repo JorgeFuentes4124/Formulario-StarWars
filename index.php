@@ -26,7 +26,7 @@
     </svg>
 
     <div class="star-wars-container">
-        <div class="star-wars-svg-text">Star Wars</div>
+        <img src="https://screenrant.com/wp-content/uploads/2016/11/Star-Wars-History-Part-I.jpg" alt="Star Wars" class="star-wars-image">
         <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartian una fuente de datos para el guardado de datos personales</h1>
     </div>
 
