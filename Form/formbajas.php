@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="btn-baja">
-			<input type="submit" value="Eliminar"><br>
+			<input type="submit" value="Borrar del Sistema"><br>
 		</div>
 	</form>
 </div>
