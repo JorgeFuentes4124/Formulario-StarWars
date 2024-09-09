@@ -10,7 +10,6 @@
 		</div>
 
 		Campos a modificar:<br>
-
 		<div class="grupoInputsCambiar">
 			<div class="imagenUsuario">
 				<img onclick="seleccionarArchivoModificar()" id="imgPerfilModificar" src="../images/fotoPerfil.png"
