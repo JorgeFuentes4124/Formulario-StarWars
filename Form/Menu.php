@@ -105,7 +105,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				<!-- Copyright -->
 				<ul class="copyright">
 					<li>Que la fuerza te acompañe.</li>
-					<li>La fuerza estará contigo, siempre<a href="">VSLA Developer</a></li>
+					<li>La fuerza estará contigo, siempre</li>
 					<li>No subestimes el poder del Lado Oscuro </li>
 				</ul>
 
