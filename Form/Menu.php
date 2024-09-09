@@ -103,11 +103,19 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<!-- Footer -->
 			<footer id="footer">
 				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design: <a href="">VSLA Developer</a></li>
-					<li></li>
-				</ul>
+				<ol class="copyright">
+					<li>Que la fuerza te acompañe.</li>
+					<li>La fuerza estará contigo, siempre<a href="">VSLA Developer</a></li>
+					<li>No subestimes el poder del Lado Oscuro </li>
+				</ol>
+
+				<ol>
+					<li><h3>Desarrollado con la Fuerza de:</h3></li>
+					<li>Barrios Nehuen</li>
+					<li>Nicolas Delgado</li>
+					<li>Jorge Fuentes</li>
+					<li>Maximo Hermann </li>
+				</ol>
 			</footer>
 		</div>
 	</div>
