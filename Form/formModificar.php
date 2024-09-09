@@ -36,7 +36,7 @@
 				<input type="text" id="fecha" placeholder="" name="fecha" required>
 
 				<div class="btn-submit">
-					<input type="submit" class="btn-modificar" value="Modificar">
+					<input type="submit" class="btn-modificar" value="Actualizar el Holocrón">
 				</div>
 			</div>
 		</div>
