@@ -16,7 +16,7 @@ $ape = $_POST['apellido'];
 $fe = $_POST['fecha'];
 $cla = $_POST['clave'];
 $foto = $_FILES["foto"]["tmp_name"];
-$fotoTamanio = $_FILES["foto"]["size"]
+$fotoTamanio = $_FILES["foto"]["size"];
 
 $result = insertar($usu, $nom, $ape, $fe, $cla, $foto, $fotoTamanio);
 
