@@ -54,6 +54,43 @@ svg {
     animation: star-wars-animation 10s linear infinite;
 }
 
+/* Estilos para el footer */
+#footer {
+    background-color: #000; /* Fondo oscuro para el footer */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
+
+.FooterPadre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuir el espacio entre los elementos */
+    align-items: center;
+}
+
+.Footer1, .Footer2, .Footer3 {
+    flex: 1; /* Cada sección ocupa un espacio igual */
+    margin: 10px; /* Margen entre las secciones */
+}
+
+.Footer1 p, .Footer2 h3, .Footer3 h3 {
+    margin: 5px 0; /* Espaciado vertical entre los elementos de texto */
+}
+
+.Footer2 h2 {
+    margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+.Footer1, .Footer2, .Footer3 {
+    padding: 10px; /* Espaciado interno en cada sección */
+}
+
+.Footer1, .Footer3 {
+    font-style: italic; /* Estilo de fuente en cursiva para citas */
+}
+
+
 
 /* Ajustar tamaño para el título principal */
 .bienvenida {
