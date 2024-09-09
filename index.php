@@ -30,6 +30,12 @@
         <h1 class="bienvenida">En un formulario muy lejano, los jedis y siths compartian una fuente de datos para el guardado de datos personales</h1>
     </div>
 
+    <audio id="background-music" autoplay loop>
+    <source src="s" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+    </audio>
+
+
     <?php
     header("refresh:5;url=Form/Menu.php");
     exit();
