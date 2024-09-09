@@ -1,43 +1,54 @@
-<div class="form">
-	<h3 class="modificarTitulo">FORMULARIO DE MODIFICACION</h3>
-	<form class="modificarInput" action="../Server/Modificacion.php" method="POST" enctype="multipart/form-data">
-		<div class="container-select">
-			<?php
-			echo getUsuarioUsersNamesModificar();
-			?>
-			<div id="modalModificar" class=""></div>
-		</div>
+<!DOCTYPE html>
+<html lang="es">
 
-		Campos a modificar:<br>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server altas</title>
+	<link rel="stylesheet" href="../css/respuesta-alta.css">
+</head>
 
-		<div class="grupoInputsCambiar">
-			<div class="imagenUsuario">
-				<img onclick="seleccionarArchivoModificar()" id="imgPerfilModificar" src="../images/fotoPerfil.png"
-					alt="">
-				<input type="file" name="foto" class="inputFileModificar">
-			</div>
-			<div class="grupoInputsModificar">
-				<label class="labelInput">
-					<input type="text" class="cambioInput" id="clave" placeholder="" name="clave" required>
-					<spam class="spanInput">Clave</spam>
-				</label>
+<?php
 
-				<label class="labelInput">
-					<input type="text" class="cambioInput" id="apellido" placeholder="" name="apellido" required>
-					<spam class="spanInput">Apellido</spam>
-				</label>
 
-				<label class="labelInput">
-					<input type="text" class="cambioInput" id="nombre" placeholder="" name="nombre" required>
-					<spam class="spanInput">Nombre</spam>
-				</label>
+include("../modelo/usuario.php");
 
-				<input type="date" id="fecha" placeholder="fecha" name="fecha" required>
+$use = $_POST['usuario'];
+$cla = $_POST['clave'];
+$ape = $_POST['apellido'];
+$nom = $_POST['nombre'];
+$fe = $_POST['fecha'];
+$foto = $_FILES["foto"]["tmp_name"];
+$fotoTamanio = $_FILES["foto"]["size"];
 
-				<div class="btn-submit">
-					<input type="submit" class="btn-modificar" value="Modificar">
-				</div>
-			</div>
-		</div>
-	</form>
-</div>
+$result = modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio);
+
+if (!$result) {
+	echo '<div class="Rcontainer">
+    <div class="Rbox">
+        <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
+        <h3 class="Rcuerpo">' . $result . '</h3>
+        <a href="../from/menu.php" class="cerrar">Cerrar</a>
+    </div>
+</div>';
+} else {
+	return include("../from/respuestas-server/respuesta-modificar.php");
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<a href="form-modificacion.php">Volver</a>
+
+</body>
+
+</html>
