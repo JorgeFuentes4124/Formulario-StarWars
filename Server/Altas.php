@@ -25,10 +25,10 @@ if(strlen($result) > 5 ) {
     <div class="Rbox">
         <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
         <h3 class="Rcuerpo">' . $result . '</h3>
-        <a href="../from/menu.php" class="cerrar">Cerrar</a>
+        <a href="../form/menu.php" class="cerrar">Cerrar</a>
     </div>
 </div>';
 } else {
-    return include("../Formulario/Menu.php");
+    return include("../Form/Menu.php");
 }
 ?>
