@@ -68,7 +68,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="altas" class="one dark cover">
 				<div class="container">
 					<?php
-					include("form-altas.php");
+					include("formaltas.php");
 					?>
 				</div>
 			</section>
@@ -77,7 +77,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="bajas" class="two">
 				<div class="container">
 					<?php
-					include("form-bajas.php");
+					include("formbajas.php");
 					?>
 				</div>
 			</section>
@@ -86,7 +86,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="modificacion" class="three">
 				<div class="container">
 					<?php
-					include("form-modificacion.php");
+					include("formModificacion.php");
 					?>
 				</div>
 			</section>
@@ -95,7 +95,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 			<section id="listar" class="four">
 				<div class="container">
 					<?php
-					include("listar.php");
+					include("Listar.php");
 					?>
 				</div>
 			</section>
