@@ -1,9 +1,9 @@
-<?php
-include '../../Conexion/Usuario.php';
-$json = json_decode(file_get_contents('php://input'), true);
-if ($json['solicitud']) {
-    $user = $json['solicitud'];
-    $respuesta = getUsuarioUserName($user);
-}
-echo json_encode($respuesta, true);
-?>
+<div class="listar">
+	<h3 class="tablatitulo">USUARIOS REGISTRADOS</h3>
+
+	<div class="tarjetaUsuario">
+		<?php
+		echo listar();
+		?>
+	</div>
+</div>
