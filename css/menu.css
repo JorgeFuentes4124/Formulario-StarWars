@@ -87,21 +87,75 @@ section {
     margin-bottom: 40px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 #footer {
-    background: #1a1a1a;
-    color: #ffffff;
-    padding: 10px;
+    background-color: #000; /* Fondo negro como en Star Wars */
+    color: #f5f5f5; /* Texto claro para contraste */
     text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-top: 2px solid #ffd700; /* Líneas doradas para un toque elegante */
 }
 
-#footer .copyright {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-family: 'Dosis', sans-serif;
+.FooterPadre {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-#footer .copyright li {
-    display: inline;
-    margin: 0 10px;
+.Footer1, .Footer2, .Footer3 {
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.Footer1 p, .Footer2 h2, .Footer2 h3, .Footer3 h2 {
+    margin: 5px 0;
+}
+
+/* Colores temáticos */
+.Footer1 p {
+    color: #00ff00; /* Verde Jedi */
+}
+
+.Footer2 h2, .Footer3 h2 {
+    color: #ffd700; /* Dorado */
+    text-shadow: 0 0 10px #ffd700;
+}
+
+.Footer2 h3 {
+    color: #ff0000; /* Rojo Sith */
+}
+
+/* Efecto de hover luminoso */
+h3:hover {
+    text-shadow: 0 0 10px #ff0000; /* Rojo brillante en hover */
+    cursor: pointer;
+}
+
+/* Efecto parpadeante estilo holograma */
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.Footer3 h2 {
+    animation: flicker 1.5s infinite alternate;
+}
+
+/* Efecto de borde similar al borde en los títulos de Star Wars */
+#footer {
+    border: 2px solid #ffd700;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.75);
+}
+
+/* Diseño adaptable para pantallas pequeñas */
+@media (max-width: 768px) {
+    .FooterPadre {
+        flex-direction: column;
+        align-items: center;
+    }
 }
