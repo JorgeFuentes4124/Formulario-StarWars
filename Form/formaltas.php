@@ -32,7 +32,7 @@
         </div>
 
         <div class="btn-submit">
-            <input class="btn" type="submit" value="Grabar"><br>
+            <input class="btn" type="submit" value="Transmitir al Senado"><br>
         </div>
     </form>
 </div>
