@@ -75,7 +75,7 @@ function getUsuarioUsersNamesModificar()
 function getUsuarioUserName($userName)
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT * FROM persona WHERE usuario ='" . $userName . "'";
+    $cadena = "SELECT * FROM starwars WHERE usuario ='" . $userName . "'";
     $consulta = mysqli_query($Conexion, $cadena);
     $array = array();
     while ($registro = mysqli_fetch_row($consulta)) {
@@ -87,7 +87,7 @@ function getUsuarioUserName($userName)
 function getUsuarioUserNames()
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT usuario FROM persona ";
+    $cadena = "SELECT usuario FROM starwars ";
     $consulta = mysqli_query($Conexion, $cadena);
     $array = array();
     while ($registro = mysqli_fetch_row($consulta)) {
@@ -99,7 +99,7 @@ function getUsuarioUserNames()
 function deleteUser($userName)
 {
     $Conexion = include("Conexion.php");
-    $cadena = "DELETE FROM persona  WHERE usuario = '$userName'";
+    $cadena = "DELETE FROM starwars  WHERE usuario = '$userName'";
     $resultado = mysqli_query($Conexion, $cadena);
 
     return $resultado;
@@ -115,7 +115,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
         $Conexion = include("Conexion.php");
 
-        $cadena = "UPDATE  persona SET apellido = '$ape', nombre = '$nom', fecha = '$fe', foto = '$contenido', clave = '$cla' WHERE usuario = '$use'";
+        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe', foto = '$contenido', clave = '$cla' WHERE usuario = '$use'";
 
         try {
             $resultado = mysqli_query($Conexion, $cadena);
@@ -128,7 +128,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
     } else {
         $Conexion = include("Conexion.php");
 
-        $cadena = "UPDATE  persona SET apellido = '$ape', nombre = '$nom', fecha = '$fe', clave = '$cla' WHERE usuario = '$use'";
+        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe', clave = '$cla' WHERE usuario = '$use'";
 
         try {
             $resultado = mysqli_query($Conexion, $cadena);

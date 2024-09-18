@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="grupoInputs">
-			<input type="text" placeholder="clave" name="clave"><br>
+			<input type="password" placeholder="Clave" name="clave"><br>
 		</div>
 
 		<div class="grupoInputs">

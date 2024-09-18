@@ -19,7 +19,7 @@
 			</div>
 			<div class="grupoInputsModificar">
 				<label class="labelInput">
-					<input type="text" class="cambioInput" id="clave" placeholder="" name="clave" required>
+					<input type="password" class="cambioInput" id="clave" placeholder="" name="clave" required>
 					<spam class="spanInput">Clave</spam>
 				</label>
 
