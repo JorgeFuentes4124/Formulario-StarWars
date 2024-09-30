@@ -93,7 +93,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 
 			<!-- Contact -->
 			<section id="listar" class="four">
-				<div class="container">
+				<div class="container listar">
 					<?php
 					include("Listar.php");
 					?>

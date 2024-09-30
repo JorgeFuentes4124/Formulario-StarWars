@@ -46,6 +46,17 @@ body {
     margin: 0;
 }
 
+.tarjetaUsuario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between-------;
+}
+
+.tarjetaUsuario .container-listar{
+    margin-right: 10px;
+    margin-left: 10px--;
+}
+
 #nav ul li a {
     color: #f1c40f;
     text-decoration: none;
