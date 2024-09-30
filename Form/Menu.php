@@ -19,7 +19,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 	<link
 		href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Dosis:wght@300&family=Fuggles&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="../css/Menu.css">
 	<link rel="stylesheet" href="../css/formAltas.css">
 
 </head>
@@ -40,15 +40,15 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="#altas" id="altas-link"><span class="icono-container">Altas<img class="icono"
-										src="../images/icono-alta.png"></span></a></li>
+					<li><a href="#altas" id="altas-link"><span class="icono-container">Altas
+							<img class="icono" src="Imagen/X-WING.png" ></span></a></li>
 						<li><a href="#bajas" id="bajas-link"><span class="icono-container">Bajas<img class="icono"
-										src="../images/icono-baja.png"></span></a></li>
+										src="Imagen/stormtrooper.png"></span></a></li>
 						<li><a href="#modificacion" id="modificacion-link"><span
 									class="icono-container">Modificacion<img class="icono"
-										src="../images/icono-modificar.png"></span></a></li>
+										src="Imagen/R2-D2.png"></span></a></li>
 						<li><a href="#listar" id="listar-link"><span class="icono-container">Listar<img class="icono"
-										src="../images/icono-listar.png"></span></a>
+										src="Imagen/c-3po.png"></span></a>
 						</li>
 					</ul>
 				</nav>
@@ -93,7 +93,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 
 			<!-- Contact -->
 			<section id="listar" class="four">
-				<div class="container">
+				<div class="container listar">
 					<?php
 					include("Listar.php");
 					?>
@@ -102,12 +102,29 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 
 			<!-- Footer -->
 			<footer id="footer">
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design: <a href="">VSLA Developer</a></li>
-					<li></li>
-				</ul>
+			<div class="FooterPadre" >
+				<div class="Footer1">
+					<p>Que la fuerza te acompañe.</p>
+					<p>La fuerza estará contigo, siempre</p>
+					<p>No subestimes el poder del Lado Oscuro</p>
+				</div>
+								
+					<div class="Footer2">
+						<h2>Desarrollado con la Fuerza de:</h2>
+						<h3>Barrios Nehuen</h3>
+						<h3>Nicolas Delgado</h3>
+						<h3>Jorge Fuentes</h3>
+						<h3>Maximo Hermann</h3>
+					</div>
+
+				<div class="Footer3">
+					<h2>Transmision asegurada por Coruscant. </h2>
+				</div>
+
+			</div>
+				 
+				 
+
 			</footer>
 		</div>
 	</div>

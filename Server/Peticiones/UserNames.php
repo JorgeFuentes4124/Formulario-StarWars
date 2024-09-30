@@ -1,4 +1,10 @@
 <?php
+<<<<<<< HEAD
+include('../../Conexion/Usuario.php');
+$respuesta = getUsuarioUserNames();
+echo json_encode($respuesta, true);
+?>
+=======
 header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 ?>
@@ -120,3 +126,4 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 </body>
 
 </html>
+>>>>>>> original

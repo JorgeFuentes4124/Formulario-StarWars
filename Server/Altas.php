@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Server altas</title>
+    <link rel="stylesheet" href="../css/respuestas-alta.css">
 </head>
 
 <?php
 
 include("../Conexion/Usuario.php");
 
-$usu = $_POST['usuario'];
-$nom = $_POST['nombre'];
-$ape = $_POST['apellido'];
-$fe = $_POST['fecha'];
+$use = $_POST['usuario'];
 $cla = $_POST['clave'];
+$ape = $_POST['apellido'];
+$nom = $_POST['nombre'];
+$fe = $_POST['fecha'];
 $foto = $_FILES["foto"]["tmp_name"];
-$fotoTamanio = $_FILES["foto"]["size"]
+$fotoTamanio = $_FILES["foto"]["size"];
 
-$result = insertar($usu, $nom, $ape, $fe, $cla, $foto, $fotoTamanio);
+$result = insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio);
 
-if(strlen($result) > 5 ) {
+if (strlen($result) > 5) {
     echo '<div class="Rcontainer">
     <div class="Rbox">
         <h2 class="Rtitulo">Esta es una respuesta del servidor</h2>
         <h3 class="Rcuerpo">' . $result . '</h3>
+<<<<<<< HEAD
+        <a href="../Form/Menu.php" class="cerrar">Cerrar</a>
+    </div>
+</div>';
+} else {
+    return include("../Form/Respuestas-server/respuestasAltas.php");
+=======
         <a href="../form/menu.php" class="cerrar">Cerrar</a>
     </div>
 </div>';
 } else {
     return include("../Form/Menu.php");
+>>>>>>> original
 }
 ?>
