@@ -40,15 +40,15 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="#altas" id="altas-link"><span class="icono-container">Altas<img class="icono"
-										src="../images/icono-alta.png"></span></a></li>
+					<li><a href="#altas" id="altas-link"><span class="icono-container">Altas
+							<img class="icono" src="Imagen/X-WING.png" ></span></a></li>
 						<li><a href="#bajas" id="bajas-link"><span class="icono-container">Bajas<img class="icono"
-										src="../images/icono-baja.png"></span></a></li>
+										src="Imagen/stormtrooper.png"></span></a></li>
 						<li><a href="#modificacion" id="modificacion-link"><span
 									class="icono-container">Modificacion<img class="icono"
-										src="../images/icono-modificar.png"></span></a></li>
+										src="Imagen/R2-D2.png"></span></a></li>
 						<li><a href="#listar" id="listar-link"><span class="icono-container">Listar<img class="icono"
-										src="../images/icono-listar.png"></span></a>
+										src="Imagen/c-3po.png"></span></a>
 						</li>
 					</ul>
 				</nav>
