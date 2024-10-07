@@ -105,7 +105,7 @@ function deleteUser($userName)
     return $resultado;
 }
 
-function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
+function modificar($use, $ape, $nom, $fe, $foto, $fotoTamanio)
 {
     if ($fotoTamanio > 0) {
         $fp = fopen($foto, "rb");
@@ -115,7 +115,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 
         $Conexion = include("Conexion.php");
 
-        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe', foto = '$contenido', clave = '$cla' WHERE usuario = '$use'";
+        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe', foto = '$contenido' WHERE usuario = '$use'";
 
         try {
             $resultado = mysqli_query($Conexion, $cadena);
@@ -128,7 +128,7 @@ function modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
     } else {
         $Conexion = include("Conexion.php");
 
-        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe', clave = '$cla' WHERE usuario = '$use'";
+        $cadena = "UPDATE  starwars SET apellido = '$ape', nombre = '$nom', fecha = '$fe' WHERE usuario = '$use'";
 
         try {
             $resultado = mysqli_query($Conexion, $cadena);
