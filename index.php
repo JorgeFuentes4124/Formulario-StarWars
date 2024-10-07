@@ -36,7 +36,7 @@
     </audio>
 
     <?php
-    header("refresh:5;url=Form/Menu.php");
+    header("refresh:5;url=Form/menu.php");
     exit();
     ?>
 </body>
