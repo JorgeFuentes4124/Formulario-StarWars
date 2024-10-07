@@ -10,6 +10,7 @@
 		</div>
 
 		Campos a modificar:<br>
+
 		<div class="grupoInputsCambiar">
 			<div class="imagenUsuario">
 				<img onclick="seleccionarArchivoModificar()" id="imgPerfilModificar" src="../images/fotoPerfil.png"
@@ -18,7 +19,7 @@
 			</div>
 			<div class="grupoInputsModificar">
 				<label class="labelInput">
-					<input type="text" class="cambioInput" id="clave" placeholder="" name="clave" required>
+					<input type="password" class="cambioInput" id="clave" placeholder="" name="clave" required>
 					<spam class="spanInput">Clave</spam>
 				</label>
 
@@ -32,10 +33,10 @@
 					<spam class="spanInput">Nombre</spam>
 				</label>
 
-				<input type="date" id="fecha" placeholder="fecha" name="fecha" required>
+				<input type="text" id="fecha" placeholder="" name="fecha" required>
 
 				<div class="btn-submit">
-					<input type="submit" class="btn-modificar" value="Modificar">
+					<input type="submit" class="btn-modificar" value="Actualizar el Holocrón">
 				</div>
 			</div>
 		</div>
