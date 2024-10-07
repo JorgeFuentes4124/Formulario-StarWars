@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Star Wars', sans-serif; 
+    font-family: 'Star Wars', sans-serif; /* Aquí */
     background: url('https://screenrant.com/wp-content/uploads/2016/11/Star-Wars-History-Part-I.jpg') no-repeat center center fixed; 
     background-size: cover; 
     color: #fff; 
     text-align: center;
 }
+
 
 /* Estilos para el SVG */
 svg {
@@ -24,8 +25,9 @@ svg {
 /* Estilos para el texto en el SVG */
 .text {
     fill: #ffff00; 
-    font-size: 50px; /* Ajustado el tamaño de la letra */
+    font-size: 60px;
     font-weight: bold;
+    font-family: 'Star Wars', sans-serif; /* Añadir aquí si aplica */
     stroke: #000; 
     stroke-width: 1px;
     transform: rotateX(30deg); 
@@ -33,11 +35,13 @@ svg {
     opacity: 0.9; 
 }
 
+
 /* Contenedor del texto con efecto de Star Wars */
 .star-wars-container {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    
 }
 
 /* Efecto de apertura de Star Wars para el texto SVG */
@@ -46,13 +50,14 @@ svg {
     position: absolute;
     width: 100%;
     text-align: center;
-    font-size: 2.5em; /* Ajustado el tamaño de la letra */
-    font-family: 'Star Wars', sans-serif; 
+    font-size: 3em;
+    font-family: 'Star Wars', sans-serif; /* Aquí ya está */
     color: #ffff00; 
     transform: rotateX(30deg);
     transform-origin: bottom;
     animation: star-wars-animation 10s linear infinite;
 }
+
 
 /* Estilos para el footer */
 #footer {
@@ -60,42 +65,42 @@ svg {
     color: #fff; 
     padding: 20px; 
     text-align: center; 
-    font-family: 'Star Wars', sans-serif; 
-    font-size: 1em; /* Tamaño ajustado */
+    font-family: 'Star Wars', sans-serif; /* Añadir aquí si deseas */
 }
 
 .FooterPadre {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-around; /* Distribuir el espacio entre los elementos */
     align-items: center;
+    
 }
 
-.Footer1, .Footer2, .Footer3 {
-    flex: 1; 
-    margin: 10px; 
-}
+
 
 .Footer1 p, .Footer2 h3, .Footer3 h3 {
-    margin: 5px 0; 
+    margin: 5px 0; /* Espaciado vertical entre los elementos de texto */
 }
 
 .Footer2 h2 {
-    margin-bottom: 10px; 
+    margin-bottom: 10px; /* Espaciado debajo del título */
 }
 
 .Footer1, .Footer2, .Footer3 {
-    padding: 10px; 
+    padding: 10px; /* Espaciado interno en cada sección */
 }
 
 .Footer1, .Footer3 {
-    font-style: italic; 
+    font-style: italic; /* Estilo de fuente en cursiva para citas */
 }
+
+
 
 /* Ajustar tamaño para el título principal */
 .bienvenida {
-    font-size: 3.5em; /* Ajustado el tamaño de la letra */
-    top: 20%; 
+    font-size: 4em;
+    top: 20%; /* Ajusta la posición vertical del título principal */
+    
 }
 
 /* Animación para el efecto de Star Wars */
