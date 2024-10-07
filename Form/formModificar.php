@@ -18,10 +18,6 @@
 				<input type="file" name="foto" class="inputFileModificar">
 			</div>
 			<div class="grupoInputsModificar">
-				<label class="labelInput">
-					<input type="password" class="cambioInput" id="clave" placeholder="" name="clave" required>
-					<spam class="spanInput">Clave</spam>
-				</label>
 
 				<label class="labelInput">
 					<input type="text" class="cambioInput" id="apellido" placeholder="" name="apellido" required>

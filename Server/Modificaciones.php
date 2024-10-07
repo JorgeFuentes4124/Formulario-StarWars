@@ -14,14 +14,13 @@
 include("../Conexion/Usuario.php");
 
 $use = $_POST['usuario'];
-$cla = $_POST['clave'];
 $ape = $_POST['apellido'];
 $nom = $_POST['nombre'];
 $fe = $_POST['fecha'];
 $foto = $_FILES["foto"]["tmp_name"];
 $fotoTamanio = $_FILES["foto"]["size"];
 
-$result = modificar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio);
+$result = modificar($use, $ape, $nom, $fe, $foto, $fotoTamanio);
 
 if (!$result) {
 	echo '<div class="Rcontainer">
