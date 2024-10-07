@@ -31,7 +31,7 @@ function insertar($use, $cla, $ape, $nom, $fe, $foto, $fotoTamanio)
 function getUsuarioUsersNames()
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT * FROM starwars ";
+    $cadena = "SELECT usuario FROM starwars ";
 
     $consulta = mysqli_query($Conexion, $cadena);
     $html = "<select class='select' style='border-bottom: 1px solid black;
@@ -53,7 +53,7 @@ function getUsuarioUsersNames()
 function getUsuarioUsersNamesModificar()
 {
     $Conexion = include("Conexion.php");
-    $cadena = "SELECT * FROM starwars ";
+    $cadena = "SELECT usuario FROM starwars ";
 
     $consulta = mysqli_query($Conexion, $cadena);
     $html = "<select class='selectModificar' style='border-bottom: 1px solid black;
