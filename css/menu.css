@@ -19,7 +19,6 @@ svg {
     height: 100%;
     z-index: -1;
     overflow: visible;
-    font-family: 'Star Wars', sans-serif;
 }
 
 /* Estilos para el texto en el SVG */
@@ -32,7 +31,7 @@ svg {
     transform: rotateX(30deg); /* Ajusta el ángulo para el efecto de perspectiva */
     transform-origin: center;
     opacity: 0.9; /* Ligeramente transparente para un efecto de profundidad */
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 /* Contenedor del texto con efecto de Star Wars */
@@ -40,7 +39,7 @@ svg {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 /* Efecto de apertura de Star Wars para el texto SVG */
@@ -63,7 +62,7 @@ svg {
     color: #fff; /* Texto blanco */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Centrar el texto */
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 .FooterPadre {
@@ -71,13 +70,13 @@ svg {
     flex-wrap: wrap;
     justify-content: space-around; /* Distribuir el espacio entre los elementos */
     align-items: center;
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 .Footer1, .Footer2, .Footer3 {
     flex: 1; /* Cada sección ocupa un espacio igual */
     margin: 10px; /* Margen entre las secciones */
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 .Footer1 p, .Footer2 h3, .Footer3 h3 {
@@ -102,7 +101,7 @@ svg {
 .bienvenida {
     font-size: 4em;
     top: 20%; /* Ajusta la posición vertical del título principal */
-    font-family: 'Star Wars', sans-serif;
+    
 }
 
 /* Animación para el efecto de Star Wars */
