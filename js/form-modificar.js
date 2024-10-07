@@ -5,16 +5,16 @@ formBajaModificar.addEventListener("submit", function (e) {
   let selectedModificar = document.querySelector(".selectModificar");
   let valueSelected = selectedModificar.selectedOptions[0].textContent;
   if (valueSelected == "Seleccione una opcion") {
-    let html = <div class="container-modal">
+    let html = `<div class="container-modal">
   <h2>Debe seleccinar una opcion</h2>
   <p class="btn-modal" onclick="cerrarModalModificar()">Aceptar</p></div>
-  </div>;
+  </div>`;
     modalModificar.innerHTML = html;
   } else {
-    let html = <div class="container-modal">
+    let html = `<div class="container-modal">
     <h2>¿Esta seguro que modificar este registro?</h2>
     <p class="btn-modal" onclick="EnviarDeleteModificar()">Aceptar</p></div>
-  </div>;
+    </div>`;
     modalModificar.innerHTML = html;
   }
 });
@@ -22,7 +22,7 @@ formBajaModificar.addEventListener("submit", function (e) {
 let selectedModificar = document.querySelector(".selectModificar");
 selectedModificar.addEventListener("change", function (e) {
   let user = e.target.selectedOptions[0].value;
-  fetch("../Server/Peticiones/user.php", {
+  fetch("../Server/Peticiones/User.php", {
     method: "POST",
     body: JSON.stringify({
       solicitud: user,
