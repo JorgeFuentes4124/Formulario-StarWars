@@ -44,7 +44,7 @@ function getUsuarioUsersNames()
 
 
     while ($registro = mysqli_fetch_row($consulta)) {
-        $html = $html . "<option value=" . $registro[0] . ">" . $registro[0] . "</option>";
+        $html = $html . '<option value="' . $registro[0] . '">' . $registro[0] . '</option>';
     }
     $html = $html . "</select>";
     return $html;
@@ -66,7 +66,7 @@ function getUsuarioUsersNamesModificar()
 
 
     while ($registro = mysqli_fetch_row($consulta)) {
-        $html = $html . "<option value=" . $registro[0] . ">" . $registro[0] . "</option>";
+        $html = $html . '<option value="' . $registro[0] . '">' . $registro[0] . '</option>';
     }
     $html = $html . "</select>";
     return $html;
