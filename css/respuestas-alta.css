@@ -3,36 +3,49 @@ body{
     padding:0;
 }
 
-.Rcontainer{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color: gray;
+/* Contenedor principal */
+.Rcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #000000 20%, #0b0c1f 100%); /* Fondo estilo espacial */
 }
 
-.Rbox{
-    border: 1px solid black;
-    width:70%;
-    height:40vh;
-    display:flex;
+/* Caja de confirmación (mensaje) */
+.Rbox {
+    border: 2px solid #00ffcc; /* Bordes color cian brillante estilo holograma */
+    width: 70%;
+    height: 40vh;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    background-color: rgb(219, 208, 208);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro translúcido */
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 2px #00ffcc; /* Sombra brillante */
+    text-align: center;
+    font-family: 'Star Jedi', sans-serif; /* Usa una fuente estilo Star Wars si está disponible */
+    transition: all 0.3s ease-in-out;
 }
 
-.cerrar{
-    border: 1px solid black;
-    width: 80px;
-    text-align:center;
-    text-decoration:none;
-    background-color:rgb(254, 253, 253);
-    color:rgb(4, 4, 4);
-}
-
-.cerrar:hover{
-    background-color:rgb(74, 42, 200);
-    color:rgb(247, 244, 244);
+/* Botón de cerrar */
+.cerrar {
+    border: 2px solid #00ffcc; /* Bordes brillantes */
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000; /* Fondo oscuro */
+    color: #00ffcc; /* Texto cian */
+    font-family: 'Star Jedi', sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover en el botón de cerrar */
+.cerrar:hover {
+    background-color: #00ffcc; /* Fondo brillante */
+    color: #000; /* Texto oscuro */
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc; /* Efecto de brillo */
 }
