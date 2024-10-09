@@ -35,7 +35,7 @@
     Tu navegador no soporta el elemento de audio.
     </audio>
 
-    //?php
+    <?php
     header("refresh:5;url=Form/Menu.php");
     exit();
     ?>
