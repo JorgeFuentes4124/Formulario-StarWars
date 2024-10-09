@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Star Wars', sans-serif; 
+    font-family: 'Star Jedi', sans-serif; /* Cambia aquí a la fuente Star Jedi */
     background: url('https://screenrant.com/wp-content/uploads/2016/11/Star-Wars-History-Part-I.jpg') no-repeat center center fixed; /* Imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     color: #fff; /* Color de texto blanco */
@@ -31,25 +31,23 @@ svg {
     transform: rotateX(30deg); /* Ajusta el ángulo para el efecto de perspectiva */
     transform-origin: center;
     opacity: 0.9; /* Ligeramente transparente para un efecto de profundidad */
-    
 }
 
-/* Contenedor del texto con efecto de Star Wars */
+/* Contenedor del texto con efecto */
 .star-wars-container {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    
 }
 
-/* Efecto de apertura de Star Wars para el texto SVG */
+/* Efecto de apertura para el texto SVG */
 .star-wars-svg-text,
 .bienvenida {
     position: absolute;
     width: 100%;
     text-align: center;
     font-size: 3em;
-    font-family: 'Star Wars', sans-serif;
+    font-family: 'Star Jedi', sans-serif; /* Cambia aquí a la fuente Star Jedi */
     color: #ffff00; /* Color dorado para el texto */
     transform: rotateX(30deg);
     transform-origin: bottom;
@@ -62,7 +60,6 @@ svg {
     color: #fff; /* Texto blanco */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Centrar el texto */
-    
 }
 
 .FooterPadre {
@@ -70,13 +67,11 @@ svg {
     flex-wrap: wrap;
     justify-content: space-around; /* Distribuir el espacio entre los elementos */
     align-items: center;
-    
 }
 
 .Footer1, .Footer2, .Footer3 {
     flex: 1; /* Cada sección ocupa un espacio igual */
     margin: 10px; /* Margen entre las secciones */
-    
 }
 
 .Footer1 p, .Footer2 h3, .Footer3 h3 {
@@ -95,16 +90,13 @@ svg {
     font-style: italic; /* Estilo de fuente en cursiva para citas */
 }
 
-
-
 /* Ajustar tamaño para el título principal */
 .bienvenida {
     font-size: 4em;
     top: 20%; /* Ajusta la posición vertical del título principal */
-    
 }
 
-/* Animación para el efecto de Star Wars */
+/* Animación para el efecto */
 @keyframes star-wars-animation {
     0% {
         transform: rotateX(30deg) translateY(100%);
