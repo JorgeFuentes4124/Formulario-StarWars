@@ -14,7 +14,7 @@
             <div style="position: relative;">
                 <input type="password" placeholder="clave" name="clave" id="clave">
                 <span id="togglePassword" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
-                    <img src="./imagen/Estrellita.png" alt="Mostrar" id="iconoOjo">
+                    <img src="../images/ojo.png" alt="Mostrar" id="iconoOjo">
                 </span>
             </div><br>
         </div>
