@@ -170,3 +170,17 @@ h3:hover {
         align-items: center;
     }
 }
+
+.btn-modal {
+    background-color: red; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 4px 10px; /* Espaciado interno más ajustado */
+    font-size: 14px; /* Tamaño de fuente */
+    border: 1px solid darkred; /* Borde del botón */
+    border-radius: 2px; /* Bordes ligeramente redondeados */
+    cursor: pointer; /* Cambia el cursor a mano */
+}
+
+.btn-modal:hover {
+    background-color: darkred; /* Color al pasar el ratón */
+}
