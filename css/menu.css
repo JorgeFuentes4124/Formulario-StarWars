@@ -1,117 +1,172 @@
-/* Estilos generales del body */
+/* menu.css */
+
+/* General Styles */
 body {
+    font-family: 'Dosis', sans-serif;
+    background: #000000; /* Star Wars Dark Space */
+    color: #ffffff; /* Star Wars White */
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: 'Star Wars', sans-serif; 
-    background: url('https://screenrant.com/wp-content/uploads/2016/11/Star-Wars-History-Part-I.jpg') no-repeat center center fixed; /* Imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    color: #fff; /* Color de texto blanco */
+}
+
+#contenedor {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1a1a1a; /* Dark Background */
+    color: #f1c40f; /* Star Wars Yellow */
+    padding: 20px;
+}
+
+#logo h1 {
+    font-family: 'Abril Fatface';
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#logo p {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: '';
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav ul li {
+    margin: 0;
+}
+
+.tarjetaUsuario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between-------;
+}
+
+.tarjetaUsuario .container-listar{
+    margin-right: 10px;
+    margin-left: 10px--;
+}
+
+#nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.icono-container {
+    display: flex;
+    align-items: center;
+}
+
+.icono-container .icono {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.banner {
+    background: url('../images/star-wars-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #f1c40f;
+    padding: 40px;
     text-align: center;
 }
 
-/* Estilos para el SVG */
-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: visible;
-}
-
-/* Estilos para el texto en el SVG */
-.text {
-    fill: #ffff00; /* Color dorado para el texto */
-    font-size: 60px;
-    font-weight: bold;
-    stroke: #000; /* Borde negro para el texto */
-    stroke-width: 1px;
-    transform: rotateX(30deg); /* Ajusta el ángulo para el efecto de perspectiva */
-    transform-origin: center;
-    opacity: 0.9; /* Ligeramente transparente para un efecto de profundidad */
-    
-}
-
-/* Contenedor del texto con efecto de Star Wars */
-.star-wars-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    
-}
-
-/* Efecto de apertura de Star Wars para el texto SVG */
-.star-wars-svg-text,
-.bienvenida {
-    position: absolute;
-    width: 100%;
-    text-align: center;
+.banner .titulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 3em;
-    font-family: 'Star Wars', sans-serif;
-    color: #ffff00; /* Color dorado para el texto */
-    transform: rotateX(30deg);
-    transform-origin: bottom;
-    animation: star-wars-animation 10s linear infinite;
 }
 
-/* Estilos para el footer */
+section {
+    margin-bottom: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 #footer {
-    background-color: #000; /* Fondo oscuro para el footer */
-    color: #fff; /* Texto blanco */
-    padding: 20px; /* Espaciado interno */
-    text-align: center; /* Centrar el texto */
-    
+    background-color: #000; /* Fondo negro como en Star Wars */
+    color: #f5f5f5; /* Texto claro para contraste */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-top: 2px solid #ffd700; /* Líneas doradas para un toque elegante */
 }
 
 .FooterPadre {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribuir el espacio entre los elementos */
-    align-items: center;
-    
+    padding: 20px;
 }
 
 .Footer1, .Footer2, .Footer3 {
-    flex: 1; /* Cada sección ocupa un espacio igual */
-    margin: 10px; /* Margen entre las secciones */
-    
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
 }
 
-.Footer1 p, .Footer2 h3, .Footer3 h3 {
-    margin: 5px 0; /* Espaciado vertical entre los elementos de texto */
+.Footer1 p, .Footer2 h2, .Footer2 h3, .Footer3 h2 {
+    margin: 5px 0;
 }
 
-.Footer2 h2 {
-    margin-bottom: 10px; /* Espaciado debajo del título */
+/* Colores temáticos */
+.Footer1 p {
+    color: #00ff00; /* Verde Jedi */
 }
 
-.Footer1, .Footer2, .Footer3 {
-    padding: 10px; /* Espaciado interno en cada sección */
+.Footer2 h2, .Footer3 h2 {
+    color: #ffd700; /* Dorado */
+    text-shadow: 0 0 10px #ffd700;
 }
 
-.Footer1, .Footer3 {
-    font-style: italic; /* Estilo de fuente en cursiva para citas */
+.Footer2 h3 {
+    color: #ff0000; /* Rojo Sith */
 }
 
-
-
-/* Ajustar tamaño para el título principal */
-.bienvenida {
-    font-size: 4em;
-    top: 20%; /* Ajusta la posición vertical del título principal */
-    
+/* Efecto de hover luminoso */
+h3:hover {
+    text-shadow: 0 0 10px #ff0000; /* Rojo brillante en hover */
+    cursor: pointer;
 }
 
-/* Animación para el efecto de Star Wars */
-@keyframes star-wars-animation {
-    0% {
-        transform: rotateX(30deg) translateY(100%);
-        opacity: 1;
-    }
-    100% {
-        transform: rotateX(30deg) translateY(-100%);
-        opacity: 0;
+/* Efecto parpadeante estilo holograma */
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.Footer3 h2 {
+    animation: flicker 1.5s infinite alternate;
+}
+
+/* Efecto de borde similar al borde en los títulos de Star Wars */
+#footer {
+    border: 2px solid #ffd700;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.75);
+}
+
+/* Diseño adaptable para pantallas pequeñas */
+@media (max-width: 768px) {
+    .FooterPadre {
+        flex-direction: column;
+        align-items: center;
     }
 }
