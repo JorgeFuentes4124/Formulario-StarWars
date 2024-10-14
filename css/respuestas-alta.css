@@ -14,7 +14,7 @@ body{
 
 /* Caja de confirmación (mensaje) */
 .Rbox {
-    border: 2px solid #00ffcc; /* Bordes color cian brillante estilo holograma */
+    border: 2px solid #fffb00; /* Bordes color cian brillante estilo holograma */
     width: 70%;
     height: 40vh;
     display: flex;
@@ -31,13 +31,13 @@ body{
 
 /* Botón de cerrar */
 .cerrar {
-    border: 2px solid #00ffcc; /* Bordes brillantes */
+    border: 2px solid #bbff00; /* Bordes brillantes */
     width: 100px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     background-color: #000; /* Fondo oscuro */
-    color: #00ffcc; /* Texto cian */
+    color: #ffe600; /* Texto cian */
     font-family: 'Star Jedi', sans-serif;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -45,7 +45,7 @@ body{
 
 /* Hover en el botón de cerrar */
 .cerrar:hover {
-    background-color: #00ffcc; /* Fondo brillante */
+    background-color: #fbff00; /* Fondo brillante */
     color: #000; /* Texto oscuro */
-    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc; /* Efecto de brillo */
+    box-shadow: 0 0 10px #ffd900, 0 0 20px #ffe600, 0 0 30px #fbff00; /* Efecto de brillo */
 }
