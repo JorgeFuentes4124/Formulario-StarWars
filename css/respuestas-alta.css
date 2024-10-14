@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #000000 20%, #0b0c1f 100%); /* Fondo estilo espacial */
+    background: radial-gradient(circle, #000000 20%, #ffffff 100%); /* Fondo estilo espacial */
 }
 
 /* Caja de confirmación (mensaje) */
