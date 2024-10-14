@@ -17,6 +17,8 @@ body {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
     background: #1a1a1a; /* Dark Background */
     color: #f1c40f; /* Star Wars Yellow */
     padding: 20px;
@@ -49,7 +51,7 @@ body {
 .tarjetaUsuario{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between-------;
+    justify-content: space-between;
 }
 
 .tarjetaUsuario .container-listar{
@@ -77,6 +79,7 @@ body {
 }
 
 .main {
+    margin-top: 55px;
     flex: 1;
     padding: 20px;
 }
@@ -172,15 +175,21 @@ h3:hover {
 }
 
 .btn-modal {
-    background-color: rgb(255, 240, 35); /* Color de fondo */
-    color: rgb(0, 0, 0); /* Color de texto */
-    padding: 4px 10px; /* Espaciado interno más ajustado */
-    font-size: 30px; /* Tamaño de fuente */
+    background-color: rgb(255, 240, 35); /* Color de fondo brillante */
+    color: rgb(0, 0, 0); /* Texto en negro */
+    padding: 5px 350px; /* Espaciado interno ajustado */
+    font-size: 18px; /* Tamaño de fuente */
     border: 2px solid rgb(255, 230, 0); /* Borde del botón */
     border-radius: 2px; /* Bordes ligeramente redondeados */
     cursor: pointer; /* Cambia el cursor a mano */
+    text-transform: uppercase; /* Texto en mayúsculas para darle un estilo más dramático */
+    font-family: 'Star Jedi', sans-serif; /* Tipografía temática de Star Wars */
+    transition: all 0.3s ease; /* Suaviza la transición al hacer hover */
 }
 
+/* Efecto al pasar el cursor sobre el botón */
 .btn-modal:hover {
-    background-color: rgb(238, 255, 0); /* Color al pasar el ratón */
+    background-color: rgb(255, 230, 0); /* Color de fondo más oscuro al hacer hover */
+    border-color: rgb(255, 255, 255); /* Cambia el borde a blanco */
+    color: rgb(0, 0, 0); /* Mantiene el color del texto */
 }
