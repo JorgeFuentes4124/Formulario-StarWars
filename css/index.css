@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Abril Fatface', serif;
+    font-family: 'Star Wars', sans-serif;
     background: url('https://screenrant.com/wp-content/uploads/2016/11/Star-Wars-History-Part-I.jpg') no-repeat center center fixed; /* Imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     color: #fff; /* Color de texto blanco */
@@ -47,7 +47,7 @@ svg {
     width: 100%;
     text-align: center;
     font-size: 3em;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Star Wars', sans-serif;
     color: #ffff00; /* Color dorado para el texto */
     transform: rotateX(30deg);
     transform-origin: bottom;
