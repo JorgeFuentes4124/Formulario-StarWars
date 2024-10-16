@@ -34,7 +34,10 @@
     <source src="Starwars.mp3" type="audio/mpeg">
     Tu navegador no soporta el elemento de audio.
     </audio>
-    
-    
+
+    <?php
+    header("refresh:5;url=Form/Menu.php");
+    exit();
+    ?>
 </body>
 </html>
