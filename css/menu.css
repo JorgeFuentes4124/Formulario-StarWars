@@ -193,3 +193,7 @@ h3:hover {
     border-color: rgb(255, 255, 255); /* Cambia el borde a blanco */
     color: rgb(0, 0, 0); /* Mantiene el color del texto */
 }
+
+img {
+object-fit: contain;
+}

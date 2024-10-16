@@ -14,8 +14,9 @@
             <div style="position: relative;">
                 <input type="password" placeholder="clave" name="clave" id="clave">
                 <span id="togglePassword" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
-                    <img src="../Imagen/Estrellita.png" alt="Mostrar" id="iconoOjo">
-                </span>
+    <img src="../Imagen/Estrellita.png" alt="Mostrar" id="iconoOjo" style="width: 45px; height: 45px;"> <!-- Cambia el tamaño aquí -->
+</span>
+
             </div><br>
         </div>
 
@@ -46,6 +47,6 @@
         const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
         passwordField.setAttribute('type', type);
         
-        iconoOjo.src = type === 'password' ? './Imagen/Estrellita.png' : './Imagen/ojoCerrado.png';
+        iconoOjo.src = type === 'password' ? './Imagen/Estrellita.png' : './Imagen/Estrella.png';
     });
 </script>
