@@ -8,11 +8,14 @@
     <meta http-equiv="Last-Modified" content="0">
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/star-wars');
+    </style>
+
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <svg viewBox="0 0 1320 300">
         <symbol id="s-text">
