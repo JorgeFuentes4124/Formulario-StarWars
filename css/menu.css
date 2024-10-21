@@ -102,63 +102,83 @@ section {
     margin-bottom: 40px;
 }
 
+/* Estilo del contenedor con temática Star Wars */
 .containerStar {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #000; /* Fondo oscuro como el espacio */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h4 {
-    color: #333;
-  }
-  
-  label {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Resplandor suave */
+    color: #f0f0f0; /* Texto claro para contraste */
+    font-family: 'Star Jedi', sans-serif; /* Tipografía temática */
+}
+
+/* Estilo de los títulos */
+h4 {
+    color: #ffe81f; /* Amarillo Star Wars */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #ffe81f; /* Efecto luminoso */
+}
+
+/* Estilo de los labels */
+label {
     font-weight: bold;
-  }
-  
-  input[type="number"] {
+    color: #f0f0f0; /* Texto claro */
+}
+
+/* Input inspirado en los paneles de control de naves */
+input[type="number"] {
     width: 100%;
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #444; /* Borde gris oscuro */
     border-radius: 4px;
-  }
-  
-  button {
+    background-color: #222; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    font-family: 'Orbitron', sans-serif; /* Fuente de ciencia ficción */
+}
+
+/* Botón estilo Rebelde */
+button {
     display: inline-block;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffe81f; /* Amarillo brillante */
+    color: #000; /* Contraste */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 4px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Estilos para badge */
-  .badge {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    font-family: 'Star Jedi', sans-serif; /* Fuente temática */
+}
+
+button:hover {
+    background-color: #ffcc00; /* Efecto hover amarillo más claro */
+}
+
+/* Estilo para badge inspirado en las insignias de la Alianza Rebelde */
+.badge {
     font-size: 0.75rem;
     font-weight: normal;
     color: #fff;
-    background-color: #6c757d;
+    background-color: #ff3c00; /* Rojo rebelde */
     padding: 3px 6px;
     margin-left: 5px;
     border-radius: 4px;
-  }
-  
-  #ConteinerCard{
+}
+
+/* Estilo de la tarjeta en el contenedor */
+#ConteinerCard {
     text-align: center;
-    color: #BA2D0B;
-    
-  
-  }
+    color: #00bcd4; /* Azul estilo holograma */
+    text-shadow: 0 0 8px #00bcd4; /* Efecto holográfico */
+    font-family: 'Orbitron', sans-serif;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
