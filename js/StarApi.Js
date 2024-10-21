@@ -1,8 +1,8 @@
 function buscar(){
     let result = document.querySelector("#ConteinerCard");
-    let input = document.querySelector("#nPokemon").value;
+    let input = document.querySelector("#nStarWars").value;
     let html = ``;
-    fetch('https://pokeapi.co/api/v2/pokemon/'+input)
+    fetch('https://swapi.dev/api/'+input)
     .then(response => response.json())
     .then((data)  => {
         console.log(data)

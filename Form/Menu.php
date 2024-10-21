@@ -100,7 +100,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				</div>
 			</section>
 
-			<div class="container">
+			<div class="containerStar">
       <h4>
         Consumo de api StarWars <span class="badge bg-secondary">Ajax</span>
       </h4>
@@ -111,7 +111,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
         placeholder="Ingresar un número de StarWars"
         data=""
       />
-	  
+
       <button onclick="buscar()">
         Buscar
       </button>
