@@ -102,7 +102,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 
 			<div class="containerStar">
       <h4>
-        Consumo de api StarWars <span class="badge bg-secondary">Ajax</span>
+        Consumo de api StarWars <span class="badge bg-secondary"></span>
       </h4>
       <label for="nStarWars">Buscador</label>
       <input
