@@ -152,6 +152,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 	<script src="../js/form-altas.js"></script>
 	<script src="../js/form-bajas.js"></script>
 	<script src="../js/form-modificar.js"></script>
+	<script src="../js/StarApi.js"></script>
 </body>
 
 </html>
