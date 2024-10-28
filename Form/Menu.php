@@ -116,7 +116,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
         Buscar
       </button>
     </div>
-    <div id="wallet_container"></div>
+    <div id="ConteinerCard img"></div>
     <div id="ConteinerCard"></div>
 
 			<!-- Footer -->
