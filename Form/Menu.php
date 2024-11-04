@@ -19,7 +19,8 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 	<link
 		href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Dosis:wght@300&family=Fuggles&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="../css/Menu.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" crossorigin>
+	<link rel="stylesheet" href="../css/menu.css">
 	<link rel="stylesheet" href="../css/formAltas.css">
 
 </head>
@@ -100,6 +101,25 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 				</div>
 			</section>
 
+			<div class="containerStar">
+      <h4>
+        Consumo de api StarWars <span class="badge bg-secondary"></span>
+      </h4>
+      <label for="nStarWars">Buscador</label>
+      <input
+        type="number"
+        id="nStarWars"
+        placeholder="Ingresar un número de StarWars"
+        data=""
+      />
+
+      <button onclick="buscar()">
+        Buscar
+      </button>
+    </div>
+    <div id="ConteinerCard"></div>
+	<div id="#img"></div>
+
 			<!-- Footer -->
 			<footer id="footer">
 			<div class="FooterPadre" >
@@ -133,6 +153,7 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
 	<script src="../js/form-altas.js"></script>
 	<script src="../js/form-bajas.js"></script>
 	<script src="../js/form-modificar.js"></script>
+	<script src="../js/StarApi.js"></script>
 </body>
 
 </html>
