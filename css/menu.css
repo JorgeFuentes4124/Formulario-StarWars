@@ -174,28 +174,15 @@ button:hover {
 
 /* Estilo de la tarjeta en el contenedor */
 #ContainerCard {
-    text-align: center;
-    color: #00bcd4; /* Azul estilo holograma */
-    text-shadow: 0 0 8px #00bcd4; /* Efecto holográfico */
-    font-family: 'Orbitron', sans-serif;
-    padding: 10px; /* Reduce el espacio interno (padding) */
-    margin: 0 auto; /* Centra el contenedor y reduce margen externo */
-    max-width: 200px; /* Ajusta el ancho máximo de la tarjeta */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de tarjeta */
+    width: 5000px; /* Ancho de la tarjeta */
+    background-color: #000000; /* Color de fondo */
+    border: 1000px solid #ddd; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 1px; /* Espaciado interno */
+    margin: 600px; /* Centrado con margen */
+    text-align: center; /* Alineación del texto */
 }
-
-/* Estilo para la imagen generada */
-#ContainerCard img {
-    width: 100px; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantiene la proporción */
-    margin: 10px 10px; /* Controla el espacio vertical de la imagen */
-    border-radius: 8px; /* Bordes redondeados */
-    object-fit: cover; /* Evita la distorsión */
-}
-
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
