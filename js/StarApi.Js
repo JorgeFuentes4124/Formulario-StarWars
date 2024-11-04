@@ -5,8 +5,7 @@ function buscar(){
     fetch(`https://akabab.github.io/starwars-api/api/all.json`)
     .then(response => response.json())
     .then((data)  => {
-        html += `<img src="${data[input].image}" >`;
-        console.log(data);
-    result.innerHTML = html;
+        html += `<img id="img" src="${data[input].image}" >`;
+        result.innerHTML = html;
     });
 }
