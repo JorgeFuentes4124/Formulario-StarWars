@@ -21,11 +21,11 @@
         </div>
 
         <div class="grupoInputs">
-            <input type="text" placeholder="Apellido" name="apellido"><br>
+            <input type="text" placeholder="Nombre" name="nombre"><br>
         </div>
 
         <div class="grupoInputs">
-            <input type="text" placeholder="nombre" name="nombre"><br>
+            <input type="text" placeholder="Apellido" name="apellido"><br>
         </div>
 
         <div class="grupoInputs">

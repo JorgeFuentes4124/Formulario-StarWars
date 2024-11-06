@@ -20,12 +20,12 @@
 			<div class="grupoInputsModificar">
 
 				<label class="labelInput">
-					<input type="text" class="cambioInput" id="apellido" placeholder="" name="apellido" required>
+					<input type="text" class="cambioInput" id="nombre" placeholder="" name="nombre" required>
 					<spam class="spanInput">Apellido</spam>
 				</label>
 
 				<label class="labelInput">
-					<input type="text" class="cambioInput" id="nombre" placeholder="" name="nombre" required>
+					<input type="text" class="cambioInput" id="apellido" placeholder="" name="apellido" required>
 					<spam class="spanInput">Nombre</spam>
 				</label>
 
